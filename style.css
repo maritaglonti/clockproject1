@@ -1,0 +1,53 @@
+body { 
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background: url("david-marcu-78A265wPiO4-unsplash.jpg");
+    background-size: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.clock {
+    display: flex;
+}
+
+.clock div{
+    margin: 7px;
+    margin-top: 20px;
+}
+
+.clock span {
+    width: 100px;
+    height: 80px;
+    background-color: rgb(118, 129, 139);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-size: 25px;
+}
+
+.clock .text {
+    height: 30px;
+    font-size: 10.5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: rgb(96, 121, 54);
+    
+}
+
+
+
